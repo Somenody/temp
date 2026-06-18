@@ -17,7 +17,7 @@ save_cpu_temp()
 if (( number_of_data < 120 ))#saving the current temperature into the ./temp.txt
 then
     	getting_cpu_temp
-	save_cpu_temp
+		save_cpu_temp
 elif ((number_of_data == 120))
 then
 	echo "" > ./temp.txt # making a reset of the data inside of ./temp.txt 
